@@ -1,0 +1,203 @@
+/* header */
+
+.home header {
+    background-color: var(--colorAmarillo);
+    padding-left: 10px;
+    font-family: var(--fontFamily);
+}
+
+.home header section div.headerinfo{
+    display: inline-flex;
+    width: 100%;
+}
+
+.home header article.logotipo {
+    width: 50%; 
+    padding: 20px;
+}
+
+header article.buscador {
+    width: 50%; 
+    padding: 20px;
+    display: inline-flex;
+
+} 
+
+header div a.search{
+    background-color: white;
+    color: var(--colorGrisOscuro);
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: var(--fontFamily);
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding: 1px 20px 1px 2px;
+}
+
+header div a.lupa{
+    background-color: var(--colorGrisClaro);
+    color: black;
+    padding: 2px;
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 1px;
+}
+
+.home header article.mano {
+    margin-left: 100px;
+    margin-top: 15px;
+    display: flex;
+    
+    
+}
+
+.home header .icon{
+    margin-left: 50px;
+}
+
+.home header .lista1 ul {
+    display: none;
+    margin: 15px;
+}
+
+.home header .lista2 ul {
+    display: none;
+    margin: 15px;
+}
+
+.home header .lista2 ul a.icono {
+    color: black;
+}
+
+.home header .cajaburger {
+    display: content;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.home header .cajaburger .burger {
+    background-color: var(--colorCeleste);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+/* tablet */
+@media (min-width: 630px) {    
+
+    .home header div a.burger{
+        display: none;
+    }
+
+    .home header section.top {
+        display: inline-flex;
+
+    }
+    
+     .home header article.mano {
+        width: 100%;
+        padding: 20px;
+        display: flex; 
+    }
+
+    .home header article.logotipo {
+        width: 100%; 
+        padding-top: 20px;
+    }
+    
+    header article.buscador {
+        width: 30%; 
+        padding: 20px;
+        display: inline-flex;
+    
+    } 
+
+    .home header .lista1 ul {
+        display: contents;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home header .lista2 ul {
+        display: contents;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home header .lista1 ul li {
+        margin: 5px;
+        list-style: none;
+    }
+
+    .home header .lista2 ul li {
+        margin: 5px;
+        list-style: none;
+    }
+
+    .home header .ambas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .home header .lista2 ul a.icono {
+        display: contents;
+    }
+
+    .home header .cajaburger {
+        display: none;
+    }
+
+    
+    
+}
+
+
+/* desktop */
+@media (min-width:769px){
+
+    .home header section.top {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .home main section article.banner img{
+        display: initial;  
+           
+    }
+
+    .home header img.logo {
+        width: 250px;
+    }
+
+    .home header img.buscador {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .home header article.mano {
+        margin-left: 10px;
+        
+    }
+
+    .home header .ambas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .home header .lista1 ul, .home header .lista2 ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home header .lista1 ul li, .home header .lista2 ul li {
+        margin: 10px;
+    }
+
+}

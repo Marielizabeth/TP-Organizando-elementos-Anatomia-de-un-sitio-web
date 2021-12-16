@@ -1,0 +1,90 @@
+.register {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.register .box-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.register .perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.register p {
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.register .box-form input {
+    border-radius: 8px;
+    font-size: 15px;
+    border: 0;
+    padding: 10px;
+}
+
+.register .box-button button {
+    width: 310px;
+    background-color: #1259c3;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.register .box-button button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.register .borrar input {
+    border: 0;
+    padding: 10px;
+    color: blue;
+}
+
+.register .options {
+    text-align: left;
+    margin: 20px;
+}
+
+footer{
+    background-color: white; 
+    padding-bottom: 20px;   
+}
+
+footer section.info{
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 12px;
+    color: var(--colorGrisOscuro);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer section article h4{
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+footer section article i{
+    display: inline-block;
+    width: 100%;
+    height: 150%;
+    color: var(--colorCeleste);
+
+}
+
+footer section article p.copyright{
+    padding-top: 20px;
+    
+}
+
